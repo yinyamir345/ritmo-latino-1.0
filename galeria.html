@@ -1,0 +1,99 @@
+<<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="galeria.css" />
+
+    <title>Ritmo Latino</title>
+  </head>
+  <body class="grid-container">
+    <header class="logo">
+      <img class="titulo"
+            src="img/LOGO PARA  PAGINA General.jpg"
+            width="50%"
+            height="100 px"
+            alt=""
+          />
+    </header>
+    <div class="reproductor">
+    
+        <!-- Inicio. radio hosting USAstreams.com html5 player -->
+        <!-- Licencia: GRATIS-XDF4543ERF -->
+        <iframe
+          name="contenedorPlayer"
+          class="cuadroBordeado"
+          allow="autoplay"
+          width="200px"
+          height="250px"
+          marginwidth="0"
+          marginheight="0"
+          hspace="0"
+          vspace="0"
+          frameborder="0"
+          scrolling="no"
+          src="https://cp.usastreams.com/pr2g/APPlayerRadioHTML5.aspx?stream=https://stream.zeno.fm/frtmjpo1eteuv&fondo=05&formato=mp3&color=14&titulo=2&autoStart=1&vol=5&tipo=3&nombre=RITMO+LATINO&imagen=https://cp.usastreams.com/playerHTML5/img/equalizer1.gif&opt=big"
+        ></iframe>
+    </div>
+    <div class="navegador">
+      <nav class="navbar">
+        <ul class="nav-list">
+          <li><a href="/">Inicio</a></li>
+          <li><a href="galeria.html">Galeria</a></li>
+          <li><a href="noticias.html">Noticias</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+
+        </ul>
+
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+      </div>
+  </nav>
+
+  <script>
+      // Script para abrir y cerrar el menú hamburguesa en pantallas pequeñas
+      const hamburger = document.querySelector('.hamburger');
+      const navList = document.querySelector('.nav-list');
+
+      hamburger.addEventListener('click', () => {
+          navList.classList.toggle('open');
+      });
+  </script>
+
+      </nav>
+
+
+    </div>
+
+    <div class="gallery">
+      <div class="image-container">
+        <img src="img/logo ritmo latino.png" alt="Imagen 1" />
+        <div class="overlay">
+          <div class="text">
+            Por muchos años Ritmo Latino tuvo esta imagen, ya era tiempo de que
+            llegaran cambios
+          </div>
+        </div>
+      </div>
+      <div class="image-container">
+        <img
+          src="img/LOGO NUEVA PRESENTACION - EN FONDO NEGRO.jpg"
+          alt="Imagen 2"
+        />
+        <div class="overlay">
+          <div class="text">llego el año 2024, y con el la nueva imagen</div>
+        </div>
+      </div>
+      <div class="image-container">
+        <img src="img/LOGO PARA  PAGINA General.jpg" alt="Imagen 3" />
+        <div class="overlay">
+          <div class="text">
+            y como era de suponerse, la nueva imagen cambiaria todo
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="login.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <h1 class="titulo">EMISORA ON LINE RITMO LATINO</h1>
+    <div class="login-container">
+      <h2>Login</h2>
+      <form id="loginForm">
+        <input
+          type="text"
+          id="usuario"
+          placeholder="digite su nombre de usuario"
+          required
+        />
+        <input
+          type="password"
+          id="clave"
+          placeholder="digite su contraseña"
+          required
+        />
+        <input type="submit" value="Iniciar Sesión" />
+      </form>
+      <p id="errorMsg" style="color: red"></p>
+    </div>
+
+    <script src="login.js"></script>
+  </body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+
+    <title>Ritmo Latino</title>
+  </head>
+  <body class="grid-container">
+    <header class="logo">
+      <img class="titulo"
+            src="img/LOGO PARA  PAGINA General.jpg"
+            width="500 px"
+            height="100 px"
+            alt=""
+          />
+    </header>
+    <div class="reproductor">
+    
+        <!-- Inicio. radio hosting USAstreams.com html5 player -->
+        <!-- Licencia: GRATIS-XDF4543ERF -->
+        <iframe
+          name="contenedorPlayer"
+          class="cuadroBordeado"
+          allow="autoplay"
+          width="350px"
+          height="250px"
+          marginwidth="0"
+          marginheight="0"
+          hspace="0"
+          vspace="0"
+          frameborder="0"
+          scrolling="no"
+          src="https://cp.usastreams.com/pr2g/APPlayerRadioHTML5.aspx?stream=https://stream.zeno.fm/frtmjpo1eteuv&fondo=05&formato=mp3&color=14&titulo=2&autoStart=1&vol=5&tipo=3&nombre=RITMO+LATINO&imagen=https://cp.usastreams.com/playerHTML5/img/equalizer1.gif&opt=big"
+        ></iframe>
+    </div>
+    <div class="navegador">
+      <nav class="navbar">
+        <ul class="nav-list">
+          <li><a href="index">Inicio</a></li>
+          <li><a href="galeria.html">Galeria</a></li>
+          <li><a href="noticias.html">Noticias</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+
+        </ul>
+
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+      </div>
+  </nav>
+
+  <script>
+      // Script para abrir y cerrar el menú hamburguesa en pantallas pequeñas
+      const hamburger = document.querySelector('.hamburger');
+      const navList = document.querySelector('.nav-list');
+
+      hamburger.addEventListener('click', () => {
+          navList.classList.toggle('open');
+      });
+  </script>
+
+      </nav>
+
+
+    </div>
+    <div class="form">
+      <div class="form-container">
+        <h4 class="nombre">Atencion Artistas <br>Contacto Directo con Ritmo Latino</h4>
+        <form action="/submit" method="POST">
+            <!-- Campo de texto para el nombre -->
+            <label class="title" for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required placeholder="Ingresa tu nombre">
+    
+            <!-- Campo de correo electrónico -->
+            <label class="title" for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required placeholder="Ingresa tu email">
+    
+            <!-- Campo de contraseña -->
+            <label class="title" for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required placeholder="Ingresa tu contraseña">
+    
+            <!-- Botón de envío -->
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+    </div>
+      <iframe class="xat" src="https://xat.com/embed/chat.php#id=220523670&gn=RITMOLATINOONLINECOLOMBIA" width="650" height="556" frameborder="0" scrolling="no"></iframe><br><small><a target="_BLANK" href="https://xat.com/web_gear/chat/embed.php?id=220523670&GroupName=RITMOLATINOONLINECOLOMBIA"></a><a target="_BLANK" href="https://xat.com/RITMOLATINOONLINECOLOMBIA"></a></small><br></iframe>
+    </div>
+    <div class="sponsor">
+      <div class="galeria">
+        <a href="https://zeno.fm/es/"target="_blank"><img src="img/logo-zeno-radio.png"  alt="Imagen 1"></a>
+        <a href="https://www.caster.fm/"target="_blank"><img src="img/logo-caster-fm.jpeg" alt="Imagen 2"></a>
+        <a href="https://yanapak.org/"target="_blank"><img src="img/logo-yanapak.png" alt="Imagen 3"></a>
+        <a href="https://www.colombia.com/"target="_blank"><img src="img/colombia.png" alt="Imagen 4"></a>
+        <a href="https://www.raddios.com/"target="_blank"><img src="img/raddios.png" alt="Imagen 5"></a>
+        <a href="https://onlineradiobox.com/co/"target="_blank"><img src="img/radio-box.png" alt="Imagen 6"></a>
+        <a href="https://radio.menu/"target="_blank"><img src="img/radio-menu.png" alt="Imagen 7"></a>
+        <a href="https://radios.com.co/"target="_blank"><img src="img/radio.png" alt="Imagen 8"></a>
+        <a href="https://mytuner-radio.com/es/"target="_blank"><img src="img/turner-radio.jpeg" alt="Imagen 9"></a>
+        <h5 class="anuncio">Estos son los servidores y paginas que apoyan nuestro trabajo llevando la señal a traves de sus links a millones de cibernautas a nivel mundial</h5>
+
+      </div>
+        
+    </div>
+    </div>
+
+
+
+    </div>
+    <div class="footer"></div>
+  </body>
+</html>
